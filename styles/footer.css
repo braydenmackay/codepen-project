@@ -1,0 +1,18 @@
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-txt {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  background-color: rgb(62, 63, 70);
+  border: 1px solid gray;
+}
+
+.bold-txt {
+  font-size: 1em;
+  padding-left: 4px;
+}

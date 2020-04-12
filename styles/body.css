@@ -1,0 +1,77 @@
+.body-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+  background-color: rgb(62, 63, 70);
+}
+
+.body-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 300px;
+  padding: 30px 100px;
+}
+
+.txt-one {
+  font-size: 2em;
+  color: lightgray;
+}
+
+.txt-one strong {
+  color: whitesmoke;
+}
+
+.txt-one i {
+  color: rgb(242, 203, 132);
+  padding-left: 4px;
+}
+
+.txt-two {
+  font-size: 1.7em;
+  color: lightgray;
+  padding-bottom: 30px;
+}
+
+.body-btns-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  font-size: 1.5em;
+}
+
+.sign-up-btn {
+  background-color: rgb(38, 187, 38);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.learn-more-btn {
+  background-color: black;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.body-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-right-txt-wrapper {
+  display: flex;
+  color: white;
+  padding: 50px 0px 0px 45px;
+}
+
+.blue-txt {
+  color: rgb(4, 196, 238);
+  padding-left: 4px;
+  font-size: 1.2em;
+}
+
+.body-right img {
+  height: 500px;
+  width: 100%;
+}

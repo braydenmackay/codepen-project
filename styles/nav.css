@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  background-color: rgb(33, 33, 33);
+}
+
+.nav-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-gap: 50px;
+  background-color: black;
+  height: 90px;
+}
+
+.left-col img {
+  height: 90px;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  height: 90px;
+  font-size: 1.2em;
+  padding-left: 15px;
+}
+
+.explore {
+  color: gold;
+}
+
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 425px;
+  padding-top: 7px;
+}
+
+.spark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px;
+  color: gray;
+  padding-left: 25px;
+}
+
+.spark i {
+  font-size: 0.7em;
+}
+
+.right-col {
+  color: white;
+}
+
+.btns-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  font-size: 1.2em;
+}
+
+.btns-wrapper i {
+  color: rgb(91, 89, 89);
+  font-size: 1.5em;
+  padding: 0px 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(91, 89, 89);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.btn i {
+  color: green;
+  font-size: 1em;
+  padding-right: 0px;
+}
