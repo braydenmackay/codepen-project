@@ -3,16 +3,17 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.footer-txt {
+.footer-txt a {
   display: flex;
   justify-content: center;
   padding: 20px;
   color: white;
   background-color: rgb(62, 63, 70);
   border: 1px solid gray;
+  text-decoration: none;
 }
 
-.bold-txt {
+.footer-txt a strong {
   font-size: 1em;
   padding-left: 4px;
 }
